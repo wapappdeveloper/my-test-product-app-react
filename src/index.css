@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.disable-selection {
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer */
+  -khtml-user-select: none;
+  /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none;
+  /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none;
+  /* Disable Android and iOS callouts*/
+}
+
+/*Fonts import*/
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('assets/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('assets/fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('assets/fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Light;
+  src: url('assets/fonts/Poppins-Light.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('assets/fonts/Poppins-Bold.ttf');
+}
